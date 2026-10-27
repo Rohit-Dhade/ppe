@@ -1,0 +1,34 @@
+# Python virtual environments & bytecode
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & linting
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ultralytics runs & caches
+runs/
+*.cache
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dynamic outputs (keep directory structure with .gitkeep)
+outputs/*
+!outputs/.gitkeep
+
+# Large dataset archives & raw training dataset
+*.zip
+*.tar.gz
+data/raw/construction-ppe/
+data/raw/*.zip
+
